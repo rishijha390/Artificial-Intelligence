@@ -29,3 +29,4 @@ booking = Booking(
 )
 
 print(booking.total_amount)
+print(booking.model_dump())
