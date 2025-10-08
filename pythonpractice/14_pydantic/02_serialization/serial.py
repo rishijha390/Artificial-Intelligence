@@ -37,5 +37,7 @@ user = User(
 )
 
 python_dict = user.model_dump()
+print(user)
+print("="*30)
 print(python_dict)
 
